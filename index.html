@@ -43,6 +43,7 @@ figcaption{margin-top:.5rem;font:400 .82rem var(--mono);color:var(--muted)}
 dl{display:grid;grid-template-columns:9rem 1fr;gap:.9rem 1.5rem}
 dt{font:500 .9rem var(--mono);color:var(--silver)}
 dd{max-width:38rem}
+.edu+.edu{margin-top:.9rem}
 dd small{display:block;color:var(--muted);font-size:.9rem}
 footer{padding:2.5rem 0 3.5rem;color:var(--muted);font:400 .85rem var(--mono)}
 @media(max-width:640px){.hero{padding:3.2rem 0 2.6rem}.shots{grid-template-columns:1fr}dl{grid-template-columns:1fr;gap:.2rem}dd{margin-bottom:.9rem}.project{padding:1.3rem}}
@@ -57,7 +58,7 @@ footer{padding:2.5rem 0 3.5rem;color:var(--muted);font:400 .85rem var(--mono)}
     <a href="mailto:ikramgherbi8@gmail.com">ikramgherbi8@gmail.com</a>
     <a href="tel:+213549731374">+213 549 73 13 74</a>
     <a href="https://github.com/ikramgherbi8">GitHub</a>
-    <a href="CV_Ikram_Gherbi.pdf">Download CV</a>
+    <a href="Ikram_Gherbi_Data_Engineer_CV_en.pdf">Download CV</a>
   </div>
   <div class="stack" aria-label="Tools">
     <span>Kafka</span><span>Spark</span><span>Hadoop</span><span>NiFi</span><span>Hudi</span><span>Hive</span><span>Trino</span><span>Docker</span><span>PostgreSQL</span><span>Superset</span><span>Power BI</span>
@@ -99,9 +100,10 @@ footer{padding:2.5rem 0 3.5rem;color:var(--muted);font:400 .85rem var(--mono)}
       <li class="s"><b>Visualize.</b> Power BI dashboards show alarms by type and severity, and a map of network equipment across Algeria.</li>
     </ul>
     <p class="tools">NiFi · PostgreSQL · Power BI</p>
+    <figure><img src="assets/alarm-map.jpg" alt="Power BI map of network alarms by severity around Algiers" loading="lazy"><figcaption>Alarm map by severity in Power BI</figcaption></figure>
     <div class="shots">
       <figure><img src="assets/alarm-architecture.jpg" alt="Pipeline: data files, NiFi, PostgreSQL, dashboard" loading="lazy"><figcaption>Pipeline architecture</figcaption></figure>
-      <figure><img src="assets/alarm-dashboard.jpg" alt="Power BI stacked column chart of alarms by type and severity" loading="lazy"><figcaption>Alarms by type and severity in Power BI</figcaption></figure>
+      <figure><img src="assets/alarm-dashboard.jpg" alt="Power BI stacked column chart of alarms by type and severity" loading="lazy"><figcaption>Alarms by type and severity</figcaption></figure>
     </div>
   </article>
 </div></section>
@@ -112,8 +114,10 @@ footer{padding:2.5rem 0 3.5rem;color:var(--muted);font:400 .85rem var(--mono)}
     <dt>Experience</dt>
     <dd>Two internships at Djezzy (Optimum Telecom Algérie)<small>Data pipelines, BI dashboards, network data</small></dd>
     <dt>Education</dt>
-    <dd>Master 2, Advanced Information Systems Engineering (ISIA)<small>Université Hassiba Benbouali de Chlef · top of the class in Master 1 · thesis defense: Mention Excellente</small></dd>
-    <dd>Bachelor’s in Computer Science, Information Systems<small>Université Hassiba Benbouali de Chlef</small></dd>
+    <dd>
+      <div class="edu">Master 2, Advanced Information Systems Engineering (ISIA)<small>Université Hassiba Benbouali de Chlef · top of the class in Master 1 · thesis defense: Mention Excellente</small></div>
+      <div class="edu">Bachelor’s in Computer Science, Information Systems<small>Université Hassiba Benbouali de Chlef</small></div>
+    </dd>
     <dt>Languages</dt>
     <dd>Arabic, English, French (B2)</dd>
   </dl>
